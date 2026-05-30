@@ -1,6 +1,8 @@
-# medspec-nlp -- Medical Text Classifier
+# medspec-nlp — Medical Text Classifier
 
-Classifies clinical transcriptions into medical specialties using NLP and fine-tuned transformer models.
+Classifies clinical transcriptions into medical specialties using NLP and fine-tuned NLP/LLM transformer models.
+
+🔗 **Live Demo:** https://huggingface.co/spaces/rajeshb0425/medspec-nlp
 
 ## Problem
 Given a medical transcription, predict the medical specialty (Surgery, Cardiology, Neurology, etc.)
