@@ -1,0 +1,15 @@
+# Model weights (too large for GitHub)
+models/*.pt
+*.pt
+
+# Data files (optional - keep cleaned CSV)
+data/mtsamples.csv
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
