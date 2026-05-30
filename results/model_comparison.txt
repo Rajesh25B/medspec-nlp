@@ -9,7 +9,7 @@ Model Results:
 --------------
 Baseline (TF-IDF + Logistic Regression) : 38.00%
 DistilBERT (distilbert-base-uncased)    : 63.55%
-ClinicalBERT (medicalai/ClinicalBERT)   : 68.72%
+ClinicalBERT (medicalai/ClinicalBERT)   : 78%
 
 Key Findings:
 -------------
