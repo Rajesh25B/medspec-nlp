@@ -21,7 +21,7 @@ MTSamples — 3000+ real medical transcriptions across 8 specialties
 |---|---|
 | Baseline (TF-IDF + LR) | 38% |
 | DistilBERT | 63.55% |
-| ClinicalBERT | 68.59% |
+| ClinicalBERT | 78.59% |
 
 ## Setup
 pip install -r requirements.txt
