@@ -14,7 +14,7 @@ MTSamples — 3000+ real medical transcriptions across 8 specialties
 1. EDA & Data Cleaning
 2. Baseline: TF-IDF + Logistic Regression → 38%
 3. Fine-tuned DistilBERT → 63.55%
-4. Fine-tuned ClinicalBERT → 68.59%
+4. Fine-tuned ClinicalBERT → 78.59%
 
 ## Results
 | Model | Accuracy |
