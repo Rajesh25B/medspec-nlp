@@ -1,0 +1,20 @@
+Medical Specialty Classification - Model Results
+================================================
+
+Dataset    : MTSamples (Kaggle)
+Specialties: 8 true medical specialties
+Samples    : 3823
+
+Model Results:
+--------------
+Baseline (TF-IDF + Logistic Regression) : 38.00%
+DistilBERT (distilbert-base-uncased)    : 63.55%
+ClinicalBERT (medicalai/ClinicalBERT)   : 68.72%
+
+Key Findings:
+-------------
+- Removing format-based specialties (Consult, SOAP, General Medicine)
+  improved model performance significantly
+- ClinicalBERT marginally outperforms DistilBERT on medical text
+- Dataset size (2823 samples) is the primary ceiling for accuracy
+- Radiology and Cardiovascular show highest confidence predictions
